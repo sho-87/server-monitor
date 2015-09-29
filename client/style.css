@@ -1,0 +1,66 @@
+body {
+	background-color: orange;
+	overflow: auto;
+    margin: 10px;
+    font-family: Georgia;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+header {
+	display: block;
+	text-align: right;
+	width: 100%;
+	height: 50px;
+}
+
+.mainWrapper {
+	min-width: 980px;
+}
+
+nav {
+	float: left;
+	width: 15%;
+}
+
+nav ul {
+	position: relative;
+    top: -15px;
+	padding: 0;
+    list-style-type: none;
+}
+
+nav ul :hover {
+	background-color: purple;
+}
+
+nav ul li {
+	border: 1px solid black;
+	background-color: red;
+	text-align: center;
+	margin-bottom: 10px;
+	height: 75px;
+}
+
+nav ul li span {
+	height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+content {
+	float: right;
+	width: calc(85% - 30px);
+	padding: 10px;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+#container {
+	height: 600px;
+	width: 70%;
+}

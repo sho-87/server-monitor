@@ -1,0 +1,21 @@
+{
+  "name": "systemMonitor",
+  "version": "0.1.0",
+  "description": "Web system monitor for Windows NAS machines",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NAS",
+    "nodejs",
+    "express",
+    "mongodb", "angularjs"
+  ],
+  "author": "Simon Ho",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.11.2",
+    "mongodb": "^1.4.31",
+   "python-shell": "0.0.3"
+  }
+}
