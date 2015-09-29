@@ -1,6 +1,6 @@
-# Server Monitor
+# Server Monitor (WIP)
 
-A first pass at a hardware monitoring solution for my Windows NAS. When I moved away from Debian I was lacking a monitoring solution that would poll and store hardware information into a database (that could later be retrieved and displayed on a website). Currently, only the storage side of things are working - have yet to find time to create the front end.
+A first pass at a hardware monitoring solution for my Windows NAS. When I moved away from Debian I was lacking a monitoring solution that would poll and store hardware information into a database (that could later be retrieved and displayed on a website). Currently, only the storage side of things are working - have yet to find time to create the front end. The project as a whole should not be deployed as many things are missing (e.g. I did not set up DB accounts while I was putting everything together).
 
 The whole project was mostly done as a fun weekend project designed to help me learn all the various web technologies involved. I'm not a fan of javascript, but alas it was a good learning experience anyway.
 
